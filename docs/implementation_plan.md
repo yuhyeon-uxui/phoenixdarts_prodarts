@@ -19,13 +19,13 @@
 > 즉, 스크롤을 내릴 때 정보가 나오는 **순서(비주얼 → 다음대회 → 랭킹...)**는 일본 유저들에게 익숙한 선진 다트 플랫폼의 방식을 100% 차용하여 낯설지 않게(보수적인 성향 만족) 만들되, 눈에 보이는 **디자인(다크 모드, 여백, 애니메이션, 폰트)**은 2026년 최신 트렌드에 맞게 완전히 새롭게 리뉴얼한다는 전략입니다.
 
 ### 🗺️ 전체 사이트 IA (Information Architecture) 구조도
-메인 페이지 스크롤뿐만 아니라, **웹사이트 전체의 메뉴(GNB)와 하위 페이지 구조**를 선진 다트 플랫폼의 선진적인 위계에 맞춰 재구성한 전체 IA 맵입니다.
-
 ```mermaid
 graph LR
-    Root[PERFECT PRO DARTS GNB]
+    Root[PERFECT PRO DARTS]
     
-    Root --> A[HOME 메인 페이지]
+    Root --> GNB[기존 GNB 및 서브페이지 (구조 100% 유지)]
+    
+    Root --> A[HOME 메인 페이지 (GUI 및 위계 전면 개편)]
     A -.-> A1(1. 비주얼 Hero)
     A -.-> A2(2. NEXT STAGE)
     A -.-> A3(3. 프로모션 배너)
@@ -33,37 +33,17 @@ graph LR
     A -.-> A5(5. 2026 RANKING)
     A -.-> A6(6. 토픽 / 뉴스)
     A -.-> A7(7. 스폰서)
-    
-    Root --> B[대회 안내]
-    B --> B1(대회 개요 / 규정)
-    B --> B2(투어 일정)
-    B --> B3(프로테스트 안내)
-    
-    Root --> C[기록 / 랭킹]
-    C --> C1(대회 결과 Archives)
-    C --> C2(올해 통합 랭킹)
-    C --> C3(시합 속보 Live)
-    
-    Root --> D[선수 / 미디어]
-    D --> D1(선수 명감)
-    D --> D2(갤러리 / 동영상)
-    D --> D3(LIVE 중계)
-    
-    Root --> E[프로 선수 전용]
-    E --> E1(선수 로그인)
-    E --> E2(라이선스 등록/갱신)
-    
-    Root --> F[고객지원]
-    F --> F1(공지사항)
-    F --> F2(문의하기)
 
     classDef page fill:#0d47a1,stroke:#fff,stroke-width:2px,color:#fff;
     classDef section fill:#424242,stroke:#bdbdbd,stroke-width:1px,color:#fff,stroke-dasharray: 5 5;
-    class A,B,C,D,E,F page;
+    classDef old fill:#757575,stroke:#9e9e9e,stroke-width:2px,color:#fff;
+    
+    class A page;
     class A1,A2,A3,A4,A5,A6,A7 section;
+    class GNB old;
 ```
 
-* **포인트**: 기존 PERFECT 사이트에 중구난방 흩어져 있던 메뉴들을 **[대회 안내], [기록/랭킹], [선수/미디어], [프로 선수 전용]** 이라는 직관적인 그룹으로 묶어 선수들이 원하는 메뉴를 1초 만에 찾을 수 있게 IA를 정립했습니다.
+* **포인트**: 기존 사이트의 서브 페이지 라우팅 구조(GNB)는 전혀 건드리지 않고 그대로 유지합니다. 오직 사용자가 처음 접속하는 **메인 페이지(HOME)의 GUI 디자인과 스크롤 순서(1~8순위)**만을 선진 플랫폼의 세련된 위계에 맞춰 전면 개편합니다.
 
 ### 1. 비주얼 (최상단 메인 이미지)
 - 꽉 차는 와이드 비율의 고화질 이미지(예: 심판 뒷모습, 현장 사진) 배치.
