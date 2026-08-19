@@ -23,16 +23,16 @@
 
 ```mermaid
 graph LR
-    Root[PERFECT PRO DARTS]
+    Root[PERFECT PRO DARTS GNB]
     
-    Root --> A[HOME 메인]
-    A --> A1(최상단 비주얼)
-    A --> A2(NEXT STAGE)
-    A --> A3(프로모션 배너)
-    A --> A4(최근 대회 우승자)
-    A --> A5(통합 랭킹 요약)
-    A --> A6(토픽 / 뉴스)
-    A --> A7(스폰서)
+    Root --> A[HOME 메인 페이지]
+    A -.-> A1(1. 비주얼 Hero)
+    A -.-> A2(2. NEXT STAGE)
+    A -.-> A3(3. 프로모션 배너)
+    A -.-> A4(4. STAGE WINNER)
+    A -.-> A5(5. 2026 RANKING)
+    A -.-> A6(6. 토픽 / 뉴스)
+    A -.-> A7(7. 스폰서)
     
     Root --> B[대회 안내]
     B --> B1(대회 개요 / 규정)
@@ -56,6 +56,11 @@ graph LR
     Root --> F[고객지원]
     F --> F1(공지사항)
     F --> F2(문의하기)
+
+    classDef page fill:#0d47a1,stroke:#fff,stroke-width:2px,color:#fff;
+    classDef section fill:#424242,stroke:#bdbdbd,stroke-width:1px,color:#fff,stroke-dasharray: 5 5;
+    class A,B,C,D,E,F page;
+    class A1,A2,A3,A4,A5,A6,A7 section;
 ```
 
 * **포인트**: 기존 PERFECT 사이트에 중구난방 흩어져 있던 메뉴들을 **[대회 안내], [기록/랭킹], [선수/미디어], [프로 선수 전용]** 이라는 직관적인 그룹으로 묶어 선수들이 원하는 메뉴를 1초 만에 찾을 수 있게 IA를 정립했습니다.
