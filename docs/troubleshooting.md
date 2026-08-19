@@ -1,4 +1,4 @@
-# Troubleshooting & Risks (트러블슈팅 및 리스크 관리)
+﻿# Troubleshooting & Risks (트러블슈팅 및 리스크 관리)
 
 ## 1. 레거시 데이터 호환성
 - **이슈**: 기존 PERFECT 사이트는 상당히 오래된 시스템(PHP/WordPress 등)으로 구축되어 있을 확률이 높음. 새로운 React/Next.js 프론트엔드와 데이터를 통신할 때 API 포맷이 맞지 않을 수 있음.

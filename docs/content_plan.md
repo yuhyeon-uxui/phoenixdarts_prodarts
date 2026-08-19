@@ -1,7 +1,7 @@
-# Content Plan (콘텐츠 기획안)
+﻿# Content Plan (콘텐츠 기획안)
 
 ## 1. 개요
-기존 PERFECT(prodarts.jp) 사이트의 콘텐츠 위계를 다트라이브(japanprodarts.jp)의 성공적인 구조(8단계 위계)에 맞춰 재배치합니다.
+기존 PERFECT(prodarts.jp) 사이트의 콘텐츠 위계를 선진 다트 플랫폼의 성공적인 구조(8단계 위계)에 맞춰 재배치합니다.
 
 ## 2. 메인 페이지 (One-Page Scroll) 콘텐츠 배치
 1. **비주얼 (Hero)**: 프로페셔널한 심판/선수 사진 (어두운 배경 + 강렬한 조명)

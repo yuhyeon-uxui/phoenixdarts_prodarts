@@ -1,4 +1,4 @@
-# User Scenarios (유저 시나리오)
+﻿# User Scenarios (유저 시나리오)
 
 ## 핵심 페르소나: 프로 다트 선수 (Pro Darts Player)
 

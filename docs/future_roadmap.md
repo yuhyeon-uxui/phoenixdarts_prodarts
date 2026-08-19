@@ -1,4 +1,4 @@
-# Future Roadmap (향후 로드맵)
+﻿# Future Roadmap (향후 로드맵)
 
 ## 1단계: 메인 페이지(One-page) UI 데모 개발
 - 핵심 IA(8단계 위계)가 적용된 스크롤 형태의 다크 모드 랜딩 페이지 완성.

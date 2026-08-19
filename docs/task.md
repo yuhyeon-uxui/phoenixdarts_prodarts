@@ -1,4 +1,4 @@
-# 프로젝트 태스크 관리 (Task)
+﻿# 프로젝트 태스크 관리 (Task)
 
 - [x] Next.js 프로젝트 생성 (`npx create-next-app`)
 - [x] `docs/` 폴더 내 10개 기획 문서 작성 및 구체화 완료

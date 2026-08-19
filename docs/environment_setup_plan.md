@@ -1,4 +1,4 @@
-# Environment Setup Plan (환경 구축)
+﻿# Environment Setup Plan (환경 구축)
 
 ## 1. 사용 기술 스택 (Tech Stack)
 - **프레임워크**: Next.js 15 (App Router 기반)
