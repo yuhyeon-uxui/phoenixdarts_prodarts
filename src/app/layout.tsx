@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Sidebar from "@/components/Sidebar";
 import Header from "@/components/Header";
 
 const geistSans = Geist({
@@ -34,9 +33,6 @@ export default function RootLayout({
         {/* 전체 레이아웃 래퍼 */}
         <div className="w-full relative">
           {children}
-
-          {/* 글로벌 사이드바 (우측에서 열림/닫힘에 따라 fixed 위치 비율 제어) */}
-          <Sidebar />
         </div>
       </body>
     </html>
