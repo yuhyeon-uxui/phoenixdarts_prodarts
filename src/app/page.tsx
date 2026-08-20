@@ -103,7 +103,7 @@ export default function Home() {
         <main className="flex flex-col w-full font-sans bg-transparent dark:bg-transparent transition-colors duration-300">
             {/* HERO SECTION - TWO CARD LAYOUT */}
             <section className="w-full bg-transparent pt-8 pb-12">
-                <div className="max-w-[1600px] mx-auto px-4  flex flex-col lg:flex-row gap-6">
+                <div className="max-w-[1280px] mx-auto px-4  flex flex-col lg:flex-row gap-6">
                     
                     {/* Left Card: Main Hero (Crossfade Slider) */}
                     <div className="flex-1 rounded-[2rem] bg-gray-900 relative overflow-hidden h-[600px] flex flex-col justify-center shadow-lg group">
@@ -243,13 +243,14 @@ export default function Home() {
             
             {/* RECOMMENDED VIDEOS SECTION */}
             <section className="w-full bg-transparent pt-8 pb-20 border-b border-gray-300 dark:border-[#27272A]">
-                <div className="max-w-[1600px] mx-auto px-4 ">
+                <div className="max-w-[1280px] mx-auto px-4 ">
                     <div className="flex items-center gap-4 mb-8">
                         <h3 className="text-2xl md:text-3xl font-black text-gray-900 dark:text-white tracking-widest uppercase mr-2 shrink-0">NEWS</h3>
                         <div className="flex items-center gap-2 overflow-x-auto scrollbar-hide pb-2 md:pb-0">
-                            <button className="bg-[#121212] text-white px-5 py-2 rounded-full text-sm font-bold shadow-sm whitespace-nowrap">전체 기사</button>
-                            <button className="bg-white dark:bg-[#1A1A1A] border border-gray-200 dark:border-[#333] text-gray-600 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-[#222] px-5 py-2 rounded-full text-sm font-bold shadow-sm transition-colors whitespace-nowrap">공지사항</button>
-                            <button className="bg-white dark:bg-[#1A1A1A] border border-gray-200 dark:border-[#333] text-gray-600 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-[#222] px-5 py-2 rounded-full text-sm font-bold shadow-sm transition-colors whitespace-nowrap">대회 정보</button>
+                            <button className="bg-[#121212] text-white px-5 py-2 rounded-full text-sm font-bold shadow-sm whitespace-nowrap">전체</button>
+                            <button className="bg-white dark:bg-[#1A1A1A] border border-gray-200 dark:border-[#333] text-gray-600 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-[#222] px-5 py-2 rounded-full text-sm font-bold shadow-sm transition-colors whitespace-nowrap">뉴스</button>
+                            <button className="bg-white dark:bg-[#1A1A1A] border border-gray-200 dark:border-[#333] text-gray-600 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-[#222] px-5 py-2 rounded-full text-sm font-bold shadow-sm transition-colors whitespace-nowrap">공지</button>
+                            <button className="bg-white dark:bg-[#1A1A1A] border border-gray-200 dark:border-[#333] text-gray-600 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-[#222] px-5 py-2 rounded-full text-sm font-bold shadow-sm transition-colors whitespace-nowrap">대회</button>
                             <button className="bg-white dark:bg-[#1A1A1A] border border-gray-200 dark:border-[#333] text-gray-600 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-[#222] px-5 py-2 rounded-full text-sm font-bold shadow-sm transition-colors whitespace-nowrap">업데이트</button>
                         </div>
                     </div>
@@ -337,7 +338,7 @@ export default function Home() {
 
             {/* RANKING SECTION */}
             <section className="w-full bg-transparent py-20 border-b border-gray-300 dark:border-[#27272A]">
-                <div className="max-w-[1600px] mx-auto px-4 ">
+                <div className="max-w-[1280px] mx-auto px-4 ">
                     
                     <div className="flex justify-between items-center mb-8 pb-4 border-b border-gray-300 dark:border-[#27272A]">
                         <div className="flex items-baseline gap-3">
@@ -402,7 +403,7 @@ export default function Home() {
 
             {/* TOPICS SECTION */}
             <section className="w-full bg-transparent py-20 border-b border-gray-300 dark:border-[#27272A]">
-                <div className="max-w-[1600px] mx-auto px-4 ">
+                <div className="max-w-[1280px] mx-auto px-4 ">
                     <div className="flex justify-between items-center mb-10 pb-4 border-b border-gray-300 dark:border-[#27272A]">
                         <div className="flex items-baseline gap-3">
                             <h3 className="text-3xl md:text-4xl font-black text-gray-900 dark:text-white tracking-widest uppercase">TOPICS</h3>
@@ -451,7 +452,7 @@ export default function Home() {
 
             {/* OFFICIAL SPONSORS SECTION */}
             <section className="w-full bg-transparent py-24">
-                <div className="max-w-[1600px] mx-auto px-4 ">
+                <div className="max-w-[1280px] mx-auto px-4 ">
                     <div className="flex justify-between items-center mb-12 pb-4 border-b border-gray-300 dark:border-[#27272A]">
                         <div className="flex items-baseline gap-3">
                             <h3 className="text-3xl md:text-4xl font-black text-gray-900 dark:text-white tracking-widest uppercase">OFFICIAL SPONSORS</h3>
