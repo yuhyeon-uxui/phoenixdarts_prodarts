@@ -1,26 +1,26 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --font-sans: "Pretendard", sans-serif;
+  --font-mono: "Pretendard", sans-serif;
+  --font-serif: "Pretendard", sans-serif;
+  --color-brand-red: #E53935;
+  --color-brand-blue: #1E88E5;
+  --color-bg-dark: #121212;
+  --color-bg-card: #1E1E1E;
+  --color-text-main: #E0E0E0;
+  --color-text-sub: #9E9E9E;
+  --color-gold: #FFD700;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  body {
+    background-color: var(--color-bg-dark);
+    color: var(--color-text-main);
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
-}
+/* Enable class-based dark mode in Tailwind v4 */
+@custom-variant dark (&:is(.dark *));
+
