@@ -299,7 +299,12 @@ export default function Home() {
             {/* TOPICS SECTION */}
             <section className="w-full bg-transparent py-20 border-b border-gray-300 dark:border-[#27272A]">
                 <div className="max-w-[1600px] mx-auto px-4 xl:pr-[380px]">
-                    <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-8">TOPICS</h3>
+                    <div className="flex justify-between items-center mb-10 pb-4 border-b border-gray-300 dark:border-[#27272A]">
+                        <div className="flex items-baseline gap-3">
+                            <h3 className="text-3xl md:text-4xl font-black text-gray-900 dark:text-white tracking-widest uppercase">TOPICS</h3>
+                        </div>
+                        <a href="#" className="bg-[#121212] text-white hover:bg-black dark:bg-white dark:text-black dark:hover:bg-gray-200 transition-all duration-300 text-xs font-black px-6 py-2.5 rounded-full uppercase shadow-sm origin-center hover:scale-[1.2]">MORE</a>
+                    </div>
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
                         {[
                             {
@@ -343,7 +348,12 @@ export default function Home() {
             {/* OFFICIAL SPONSORS SECTION */}
             <section className="w-full bg-transparent py-24">
                 <div className="max-w-[1600px] mx-auto px-4 xl:pr-[380px]">
-                    <h3 className="text-2xl font-bold text-gray-900 dark:text-white text-center mb-12">OFFICIAL SPONSORS</h3>
+                    <div className="flex justify-between items-center mb-12 pb-4 border-b border-gray-300 dark:border-[#27272A]">
+                        <div className="flex items-baseline gap-3">
+                            <h3 className="text-3xl md:text-4xl font-black text-gray-900 dark:text-white tracking-widest uppercase">OFFICIAL SPONSORS</h3>
+                        </div>
+                        <a href="#" className="bg-[#121212] text-white hover:bg-black dark:bg-white dark:text-black dark:hover:bg-gray-200 transition-all duration-300 text-xs font-black px-6 py-2.5 rounded-full uppercase shadow-sm origin-center hover:scale-[1.2]">MORE</a>
+                    </div>
                     <div className="max-w-4xl mx-auto">
                         <h4 className="text-xs font-bold text-[#555] mb-6 text-center tracking-[0.2em]">TOUR SPONSOR</h4>
                         <div className="flex justify-center mb-16">
